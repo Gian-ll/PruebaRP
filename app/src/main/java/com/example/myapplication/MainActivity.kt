@@ -7,7 +7,6 @@ import android.widget.TextView
 import androidx.activity.viewModels
 
 class MainActivity : AppCompatActivity() {
-
     private val miViewModel: ContadorViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {

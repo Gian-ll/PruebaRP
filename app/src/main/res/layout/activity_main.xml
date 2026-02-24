@@ -21,13 +21,13 @@
             android:layout_height="wrap_content"
             android:text="@string/btn_sumar"
             android:textSize="50sp"
-            backgroundTint="@color/success_green"
             android:textColor="@color/primary_blue"/>
 
         <Button
             android:id="@+id/btnSumar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/success_green"
             android:text="Incrementar"/>
 
         <Button

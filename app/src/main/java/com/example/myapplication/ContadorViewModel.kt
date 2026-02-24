@@ -8,7 +8,7 @@ class ContadorViewModel : ViewModel() {
 
     val numero: LiveData <Int> get()= _numero
     fun incrementar(){
-        _numero.value = (_numero.value ?: 0) +1
+        _numero.value = (_numero.value ?: 0) + 1
     }
     fun decrementar(){
         val actual = _numero.value ?: 0
